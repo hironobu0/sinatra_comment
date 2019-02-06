@@ -4,6 +4,7 @@ require 'sinatra/reloader'
 set :database, {adapter: "sqlite3", database: "contacts.sqlite3"}
 
 
+
 get '/' do
 
   erb :index
